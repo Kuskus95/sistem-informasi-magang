@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    @vite('resources/css/app.css')
+</head>
+<body class="bg-gray-100">
+
+<!-- Wrapper untuk layout horizontal -->
+<div class="flex min-h-screen">
+
+    <!-- Sidebar (kiri) -->
+    <x-sidebar></x-sidebar>
+
+    <!-- Main Content (kanan) -->
+    <div class="flex-1">
+        <x-project></x-project>
+    </div>
+
+</div>
+
+</body>
+</html>
